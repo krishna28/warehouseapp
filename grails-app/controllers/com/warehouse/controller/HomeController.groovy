@@ -15,7 +15,7 @@ class HomeController {
             return
         }
         def result = warehouseService.getAllByDatasourceAndDateRange(params)
-        render "Total click: ${result[0]}"
+        render "Total clicks: ${result[0]}"
     }
 
     def getImpressionsOverTime() {
@@ -24,7 +24,7 @@ class HomeController {
             return
         }
         def result = warehouseService.getImpressionsOverTime(params)
-        render "Total click: ${result[0]}"
+        render "Total impressions: ${result[0]}"
     }
 
     def getCtrPerDataSourceAndCampaign() {
