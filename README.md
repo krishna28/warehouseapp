@@ -7,6 +7,8 @@ Simple warehouse app to explore data via  rest API
 
 Returns the CTR per datasouce and campaign
 
+Note: To view the response properly you can install json viewer (a chrome plugin)
+
 #### 2. endpoint https://quiet-mountain-74418.herokuapp.com/api/impressionsOverTime?date=11/13/19
 
 Change the date value to get impressions over time on a daily basis
