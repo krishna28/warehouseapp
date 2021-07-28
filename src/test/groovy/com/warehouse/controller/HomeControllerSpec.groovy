@@ -34,7 +34,7 @@ class HomeControllerSpec extends Specification implements ControllerUnitTest<Hom
 
         then:
         response.status == 200
-        response.text == 'Total click: 9900'
+        response.text == 'Total clicks: 9900'
     }
     void "getImpressionsOverTime call should fail if called with no params"() {
         when:
@@ -54,7 +54,7 @@ class HomeControllerSpec extends Specification implements ControllerUnitTest<Hom
 
         then:
         response.status == 200
-        response.text == 'Total click: 7654'
+        response.text == 'Total impressions: 7654'
     }
     void "getCtrPerDataSourceAndCampaign call should fail if called with no params"() {
         when:
